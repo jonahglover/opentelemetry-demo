@@ -1,3 +1,13 @@
+## Useful Commands
+
+```
+docker compose up --force-recreate --remove-orphans --detach
+docker stop $(docker ps -a -q) 
+docker rm $(docker ps -a -q) 
+```
+
+
+
 <img width="1545" alt="nr-hearts-otel" src="https://github.com/user-attachments/assets/96fb9c0e-3cc3-4319-9025-fa4a6fc48f0f">
 
 ## New Relic’s Fork of the OpenTelemetry Astronomy Shop
